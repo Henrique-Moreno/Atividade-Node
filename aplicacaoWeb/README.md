@@ -34,10 +34,6 @@ A função `isValidCPF` realiza a validação do CPF com base na fórmula de ver
 - `remainder`: Armazena o resto da divisão e é ajustado para 0 se o valor for 10 ou 11.
 - `parseInt(cpf.substring(...))`: Obtém os dígitos do CPF para comparar com os valores calculados.
 
-### Criação e Execução dos Testes
-
-Para garantir que a validação do CPF esteja funcionando corretamente, você pode criar testes automatizados. Embora o código atual não inclua testes automatizados, é recomendável criar uma suíte de testes utilizando uma framework de teste JavaScript como o Mocha ou Jest.
-
 ### Configuração do Projeto
 
 O projeto é configurado com os seguintes arquivos:
