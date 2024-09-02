@@ -3,7 +3,7 @@
 <h2>Descrição</h2>
 <p>
     Este conjunto de testes é responsável por verificar o funcionamento correto das funções matemáticas básicas definidas no módulo <code>math</code>.
-    As funções testadas incluem adição, subtração, multiplicação e divisão. O framework de testes utilizado é o Mocha, enquanto a biblioteca Chai é utilizada para as asserções.
+    As funções testadas incluem adição, subtração, multiplicação e divisão. O framework de testes utilizado é o Mocha.
     O objetivo é garantir que cada função execute corretamente a operação matemática esperada e retorne os resultados esperados para as entradas fornecidas.
 </p>
 
@@ -12,8 +12,6 @@
 <h3>Importação de Dependências</h3>
 <p>
     O módulo de teste importa o módulo <code>math</code>, que contém as funções matemáticas a serem testadas.
-    Além disso, importa o módulo <code>assert</code> da biblioteca Chai, que fornece métodos para realizar as asserções nos testes.
-    A sintaxe <code>import</code> é utilizada para importar o módulo, o que exige que o projeto esteja configurado como um módulo ECMAScript (ESM).
 </p>
 
 <h3>Estrutura dos Testes</h3>
@@ -30,10 +28,6 @@
 <p>
     Cada teste utiliza o método <code>assert.strictEqual</code> para comparar o resultado da função matemática com o valor esperado. O método <code>assert.strictEqual</code> verifica se dois valores são estritamente iguais, isto é, têm o mesmo valor e o mesmo tipo.
 </p>
-
-<ul>
-    <li><code>assert.strictEqual</code>: Método da biblioteca Chai que realiza uma verificação de igualdade estrita entre dois valores. Se os valores não forem estritamente iguais, um erro é lançado.</li>
-</ul>
 
 <h3>Testes Específicos</h3>
 <p>
@@ -55,6 +49,6 @@
 
 <h3>Configuração do Projeto para Testes</h3>
 <p>
-    O projeto deve ser configurado com o Mocha e a biblioteca Chai instalados como dependências de desenvolvimento.
+    O projeto deve ser configurado com o Mocha.
     As dependências são especificadas no arquivo <code>package.json</code>, e os testes são definidos em arquivos separados dentro do diretório de testes.
 </p>
