@@ -15,7 +15,7 @@
 
 <h3>Criação do Servidor</h3>
 <p>
-    O servidor é criado e configurado no arquivo <code>server.js</code>. As principais funcionalidades do servidor são descritas a seguir:
+    O servidor é criado e configurado no arquivo <code>servidor.js</code>. As principais funcionalidades do servidor são descritas a seguir:
 </p>
 <ul>
     <li><strong>Criação da Instância do Aplicativo</strong>: Uma instância do aplicativo Express é criada com <code>const app = express();</code>.</li>
@@ -50,34 +50,7 @@
     <li><code>divisao(a, b)</code>: Retorna o quociente de <code>a</code> dividido por <code>b</code>.</li>
 </ul>
 
-<h2>Procedimentos para a Realização da Atividade</h2>
-
-<h3>1. Configuração do Projeto</h3>
-<p>
-    Inicialize um novo projeto Node.js e instale as dependências necessárias: <code>express</code>, <code>mocha</code>, <code>chai</code>, e <code>chai-http</code>.
-</p>
-
-<h3>2. Criação do Servidor HTTP</h3>
-<p>
-    Crie um arquivo <code>server.js</code> para configurar e iniciar o servidor HTTP básico utilizando Express. Adicione duas rotas: uma rota GET para <code>/</code> e uma rota POST para <code>/data</code>.
-</p>
-
-<h3>3. Estrutura do Projeto</h3>
-<p>
-    Crie um arquivo <code>math.js</code> para implementar funções simples de matemática.
-</p>
-
-<h3>4. Escrever Testes de Integração</h3>
-<p>
-    No arquivo <code>test/integration.test.js</code>, escreva testes de integração para validar o comportamento das rotas do servidor usando Mocha e Chai.
-</p>
-
-<h3>5. Executar os Testes</h3>
-<p>
-    Configure um script no <code>package.json</code> para rodar os testes e execute-os para garantir que todos os testes passem.
-</p>
-
-<h3>6. Documentação e Entrega</h3>
+<h3>Documentação e Entrega</h3>
 <p>
     Documente o projeto conforme descrito neste documento e entregue conforme os requisitos especificados.
 </p>
